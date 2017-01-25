@@ -1,0 +1,25 @@
+{
+  "name": "alfresco-export-users-to-csv",
+  "version": "1.0.0",
+  "description": "Export Alfresco users to CSV file with their audit information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Le Gallic (AMOAE) <charles at amoae.com>",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/clegallic/alfresco-export-users-to-csv.git"
+  },
+  "keywords": [
+    "alfresco"
+  ],
+  "license": "Apache 2.0",
+  "dependencies": {
+    "moment": "2.17.1",
+    "node-rest-client": "2.0.1",
+    "pacu": "1.6.2",
+    "progress": "1.1.8",
+    "ya-csv": "0.10.1"
+  }
+}
